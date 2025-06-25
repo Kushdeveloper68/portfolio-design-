@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI/UX Designer Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- ✅ Font Awesome for social media icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Vr3dHBjqGR1gD7pF0VN1zHZ7kWhn3JpG5JH+0E5F5N/bdZp+U84mM6kfzO4z8wD8yg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <script>
+  <% if (msg) { %>
+ alert("<%= msg %>");
+<% } %>
+</script>
+</head>
+<body>
+  <header>
+    <div class="logo">NL</div>
+    <button id="navToggle" class="nav-toggle"><img width="35" height="35" src="https://img.icons8.com/ios/50/menu--v1.png" alt="menu--v1"/></button>
+    <nav class="nav-links">
+      <a href="#" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Project</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hello I’m A <strong>Web<span>Developer.</span></strong></h1>
+      <p>Hi I’m Shan B.tech, a passionate Web Developer based in the Uttar Pradesh. Welcome to portfolio world.</p>
+      <div class="social-icons">
+        <a href="#"><img width="40" height="40" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/></a>
+        <a href="#"><img width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/twitterx--v2.png" alt="twitterx--v2"/></a>
+        <a href="#"><img width="40" height="40" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/></a>
+        <a href="#"><img width="40" height="40" src="https://img.icons8.com/color/48/linkedin-circled--v1.png" alt="linkedin-circled--v1"/></a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://png.pngtree.com/png-vector/20240720/ourmid/pngtree-headshot-of-smiling-beautiful-employee-png-image_13002780.png" alt="Hero Image" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <div class="about-section">
+      <div class="about-image">
+        <img src="https://c.wallhere.com/photos/5c/51/AutoHotkey_programmers_code_programming_laptop-1159336.jpg!d" alt="Ethan Carter" />
+      </div>
+      <div class="about-content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui soluta eligendi itaque enim amet asperiores excepturi voluptates repellat deserunt veniam? A molestiae quibusdam sunt enim. Nesciunt commodi aliquam exercitationem alias nulla animi illo consequuntur itaque, numquam suscipit aliquid molestiae. Dolor officia fugit inventore voluptate voluptatum reiciendis. Dolores esse odit vitae nihil ipsum animi quos quae, quo nesciunt facere ipsa ab temporibus? Culpa, ea eum aliquid doloribus a sequi impedit quaerat? Voluptas accusamus, ad eum iste aperiam minus ullam suscipit reprehenderit consectetur veniam eaque et voluptates blanditiis fugiat? Obcaecati, autem voluptas? Sed numquam iste adipisci optio dignissimos laudantium, ea aperiam soluta non? Corporis vero esse architecto at pariatur ad explicabo nemo eius exercitationem quaerat dignissimos obcaecati, dolore optio facilis ipsum nesciunt! Corrupti ratione cupiditate magnam suscipit molestias autem debitis tempore, doloremque provident minus dolorum dolor animi, delectus assumenda, omnis minima dolorem quidem! Iste fugiat earum quisquam dolorem possimus dolor voluptates vero!
+        </p>
+        <div class="experience">
+          <div class="experience-item">
+            <strong>Senior Front-End Developer</strong><br />Tech Solutions Inc. | 2020 - Present
+          </div>
+          <div class="experience-item">
+            <strong>Front-End Developer</strong><br />Web Dynamics Co. | 2018 - 2020
+          </div>
+          <div class="experience-item">
+            <strong>Junior Web Developer</strong><br />Creative Web Studios | 2016 - 2018
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt="Project Alpha" />
+        <h3>Project Alpha</h3>
+        <p>Built with React, Node.js, and PostgreSQL, featuring real-time updates and responsive design.</p>
+        <button>View Demo</button>
+      </div>
+      <div class="project-card">
+        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt="E-Shop" />
+        <h3>E-Shop</h3>
+        <p>Developed with Angular, Spring Boot, and MySQL. Includes user auth and shopping cart.</p>
+        <button>View Demo</button>
+      </div>
+      <div class="project-card">
+        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt="Data Insights" />
+        <h3>Data Insights</h3>
+        <p>Built with Vue.js, D3.js, and MongoDB. Offers dynamic filtering and drill-down.</p>
+        <button>View Demo</button>
+      </div>
+    </div>
+
+    <h2 style="margin-top:3rem">Other Projects</h2>
+    <div class="other-projects-grid">
+      <div class="project-card">
+        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt="Blog Platform" />
+        <h3>Blog Platform</h3>
+        <p>Personal blog built with Next.js and Markdown. Includes SSR and SEO.</p>
+        <button>View Demo</button>
+      </div>
+      <div class="project-card">
+        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt="Task Manager" />
+        <h3>Task Manager</h3>
+        <p>App developed with React Native and Firebase for team collaboration.</p>
+        <button>View Demo</button>
+      </div>
+      <div class="project-card">
+        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt="Portfolio Website" />
+        <h3>Portfolio Website</h3>
+        <p>Portfolio built using Gatsby and styled-components with modern design.</p>
+        <button>View Demo</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-section">
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/><br>HTML</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/><br>CSS</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/javascript.png" alt="javascript"/><br>JavaScript</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/react-native.png" alt="react"/><br>React</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/nextjs.png" alt="nextjs"/><br>Next.js</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/nodejs.png" alt="nodejs"/><br>Node.js</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/express.png" alt="express"/><br>Express.js</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/><br>MongoDB</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/postgreesql.png" alt="postgreesql"/><br>PostgreSQL</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="git"/><br>Git</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/color/48/github.png" alt="github"/><br>GitHub</div>
+      <div class="skill-box"><img width="48" height="48" src="https://img.icons8.com/stickers/100/communication-skills.png" alt="communication-skills"/><br>Vercel</div>
+    </div>
+  </section>
+
+  <!-- Get in Touch Section -->
+  <section class="contact"  id="contact">
+    <h2>Get in Touch</h2>
+    <form class="contact-form" action="/userCreate" method="post" >
+      <input type="text" placeholder="Your Name" name="name" required />
+      <input type="email" placeholder="Your Email" name="email" required />
+      <textarea rows="5" placeholder="Your Message" name="description" required></textarea>
+      <button type="submit">Send Message</button>
+      
+    </form>
+    
+  </section>
+
+ <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="footer-container">
+    <div class="footer-col" role="navigation" aria-labelledby="quick-nav-heading" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <h3 id="quick-nav-heading" itemprop="name">Quick Nav</h3>
+      <ul>
+        <li><a href="#" itemprop="url">Home</a></li>
+        <li><a href="#" itemprop="url">Contents</a></li>
+        <li><a href="#" itemprop="url">Creations</a></li>
+        <li><a href="#" itemprop="url">Services</a></li>
+        <li><a href="#" itemprop="url">Store</a></li>
+      </ul>
+    </div>
+    <div class="footer-col" role="navigation" aria-labelledby="know-heading">
+      <h3 id="know-heading" itemprop="name">Know</h3>
+      <ul>
+        <li><a href="#" itemprop="url">About</a></li>
+        <li><a href="#" itemprop="url">Mission</a></li>
+        <li><a href="#" itemprop="url">Services</a></li>
+        <li><a href="#" itemprop="url">Social</a></li>
+        <li><a href="#" itemprop="url">Get in touch</a></li>
+      </ul>
+    </div>
+    <div class="footer-col" role="navigation" aria-labelledby="contents-heading">
+      <h3 id="contents-heading" itemprop="name">Contents</h3>
+      <ul>
+        <li><a href="#" itemprop="url">Inside SDP</a></li>
+        <li><a href="#" itemprop="url">Blog</a></li>
+        <li><a href="#" itemprop="url">Verses / Poems</a></li>
+        <li><a href="#" itemprop="url">Visual Narratives</a></li>
+        <li><a href="#" itemprop="url">Topics Index</a></li>
+        <li><a href="#" itemprop="url">More</a></li>
+      </ul>
+    </div>
+    <div class="footer-col" role="navigation" aria-labelledby="resources-heading">
+      <h3 id="resources-heading" itemprop="name">Resources</h3>
+      <ul>
+        <li><a href="#" itemprop="url">Graphics</a></li>
+        <li><a href="#" itemprop="url">Free codes</a></li>
+        <li><a href="#" itemprop="url">Helpful sites</a></li>
+        <li><a href="#" itemprop="url"> Freebies</a></li>
+        <li><a href="#" itemprop="url"> Templates</a></li>
+        <li><a href="#" itemprop="url"> Mockups</a></li>
+      </ul>
+    </div>
+    <div class="footer-col" role="navigation" aria-labelledby="support-heading">
+      <h3 id="support-heading" itemprop="name">Support</h3>
+      <ul>
+        <li><a href="#" itemprop="url">Contact</a></li>
+        <li><a href="#" itemprop="url">Web chat</a></li>
+        <li><a href="#" itemprop="url">E-mail</a></li>
+      </ul>
+    </div>
+    <div class="footer-col social" role="navigation" aria-labelledby="social-heading">
+      <h3 id="social-heading" itemprop="name">Social</h3>
+      <ul class="social-icons">
+        <li><a href="#" aria-label="Facebook" itemprop="url"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#" aria-label="Twitter" itemprop="url"><i class="fa-brands fa-x-twitter"></i></a></li>
+        <li><a href="#" aria-label="Mastodon" itemprop="url"><i class="fa-brands fa-mastodon"></i></a></li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div><div class="footer-bottom">
+  <p>© 2025 <a style='color:inherit' href="https://www.sdavidprince.space">Developer kush</a>. All rights reserved.</p>
+  <ul class="footer-bottom-links">
+    <li><a href="#">Legal</a></li>
+    <li><a href="#">Credits</a></li>
+    <li><a href="#">Sponsor/Advertise</a></li>
+  </ul>
+</div>
+
+</footer>
+<!-- END OF FOOTER -->
+  <script src="script.js"></script>
+</body>
+</html>
